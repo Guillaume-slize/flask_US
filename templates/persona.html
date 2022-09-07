@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <title>La Machine</title>
+<!--     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+ -->    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+      integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+      crossorigin="anonymous"
+    />
+    <link href="../static/css/sticky-footer.css" rel="stylesheet">
+<!--     <link
+      rel="stylesheet"
+      href="../css/style.css?qrtlm1"
+    /> -->
+<!--     <link
+      rel="stylesheet"
+      href="https://urbanspecies.org/themes/custom/frontend/assets/css/style.css?qrtlm1"
+     > -->
+<!--       style="font-family:'space_groteskregular', Helvetica, Arial, sans-serif;"
+    /> -->
+    
+  </head>
+  <body>
+    <main role="main" class="container">
+    	<h1 class="mt-5" style="font-family:'COMMUNE', Arial, sans-serif; text-align: center; text-transform: uppercase; padding-top: 1em;" >{{head}}</h1>
+    	<p class="lead text-muted" style="font-family:'space grotesk', Helvetica, Arial, sans-serif; padding-bottom: 1em; padding-top: 1em;" >
+    	{{content}}
+    	</p>
+      <button type="button" class="btn btn-lg btn-block btn-outline-primary" onclick="window.location.href='/persona/';" style="font-family:'space grotesk', Helvetica, Arial, sans-serif;">
+        Une autre persona!
+      </button>    
+
+  </main>
+  
+ <div class="text-center" >  
+  <footer class="footer", style="height:9em">
+    <!-- <div class="container"> -->
+      
+<!--       <span class="text-muted" style="font-family:'space grotesk', Helvetica, Arial, sans-serif;">Espèces Urbaines 2021</span>
+ -->      <object data="../static/img/Urban_species_logo_black.svg" height="65" style="text-align: center; margin-bottom: -3em"> </object>
+    <br> CC-BY-NC-SA <a href="https://www.hellon.com/">hellon</a> &  <a href="https://urbanspecies.org/en">US</a> 
+<!-- </div> -->
+  </footer>
+
+  </body>
+</html>
